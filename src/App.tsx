@@ -62,8 +62,8 @@ function App() {
               <Button type="primary" htmlType="submit">Посчитать</Button>
             </Form>
             <div>
-              {isError && <p>{'Ничего не нашлось :('}</p>}
-              {results.map((el) => <p>{el}</p>)}
+              {isError && <p style={{color:'#000'}}>{'Ничего не нашлось :('}</p>}
+              {results.map((el) => <p style={{color:'#000'}}>{el}</p>)}
             </div>
           </div>
       </Layout>
